@@ -3,6 +3,8 @@ Heroku buildpack: PhantomJS
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) of PhantomJS(http://phantomjs.org).
 
+2014-01-21 - Updated to 1.9.6 - Sam Lehman 
+
 Usage
 -----
 
