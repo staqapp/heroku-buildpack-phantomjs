@@ -12,7 +12,7 @@ VERSION="1.9.8"
 
 ARCHIVE_NAME=phantomjs-${VERSION}-linux-x86_64
 FILE_NAME=${ARCHIVE_NAME}.tar.bz2
-BUILDPACK_PHANTOMJS_PACKAGE=https://s3.amazonaws.com/staq-buildpack-assets/${FILE_NAME}
+BUILDPACK_PHANTOMJS_PACKAGE=https://s3.amazonaws.com/staq-buildpack-files/${FILE_NAME}
 
 mkdir -p $CACHE_DIR
 if ! [ -e $CACHE_DIR/$FILE_NAME ]; then
